@@ -20,30 +20,29 @@ It provides a **comprehensive end-to-end model** of attacker behavior, from init
 
 The UKC includes **18 attack phases** across 3 stages:
 
-### 🛠️ 1. **Initial Foothold (Preparation & Delivery)**
-- Reconnaissance  
-- Weaponization  
-- Delivery  
-- Social Engineering  
-- Exploitation  
+### 🛠️ 1. **Initial Foothold**
+- **Reconnaissance** – Gathering intel on the target (e.g., emails, open ports)
+- **Weaponization** – Creating or preparing malware for delivery
+- **Delivery** – Sending payloads via email, USB, websites, etc.
+- **Social Engineering** – Tricking users (e.g., phishing, baiting) to enable access
+- **Exploitation** – Exploiting a vulnerability to gain initial access
 
 ### 🧪 2. **Execution & Control**
-- Installation  
-- Command & Control (C2)  
-- Credential Access  
-- Privilege Escalation  
-- Lateral Movement  
-- Defense Evasion  
+- **Installation** – Installing malware or backdoors
+- **Command & Control (C2)** – Establishing remote communication with the victim system
+- **Credential Access** – Stealing or cracking usernames, passwords, tokens
+- **Privilege Escalation** – Gaining higher-level access (e.g., from user to admin)
+- **Lateral Movement** – Moving to other systems inside the network
+- **Defense Evasion** – Hiding activity from antivirus, EDR, or logs
 
 ### 🎯 3. **Actions on Objectives**
-- Discovery  
-- Collection  
-- Exfiltration  
-- Impact  
-- Persistence  
-- Cleanup  
+- **Discovery** – Mapping out systems, users, and defenses
+- **Collection** – Gathering sensitive data (e.g., files, credentials)
+- **Exfiltration** – Sending stolen data out of the network
+- **Impact** – Destroying, altering, or disrupting systems (e.g., ransomware)
+- **Persistence** – Ensuring long-term access (e.g., creating accounts or startup scripts)
+- **Cleanup** – Removing traces of the attack (e.g., deleting logs)
 
----
 
 ## 🎯 Why It Matters in DFIR
 
